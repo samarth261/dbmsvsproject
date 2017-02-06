@@ -20,23 +20,31 @@ namespace allocationsystem
             dataTable.Columns.Add("Date", typeof(String));
             dataTable.Columns.Add("Slot", typeof(String));
             dataTable.Columns.Add("No. Rooms", typeof(int));
-            dataTable.Columns.Add("1", typeof(String));
-            dataTable.Columns.Add("2", typeof(String));
-            dataTable.Columns.Add("3", typeof(String));
-            dataTable.Columns.Add("4", typeof(String));
-            dataTable.Columns.Add("5", typeof(String));
-            dataTable.Columns.Add("6", typeof(String)); 
+            //dataTable.Columns.Add("1", typeof(String));
+            //dataTable.Columns.Add("2", typeof(String));
+            //dataTable.Columns.Add("3", typeof(String));
+            //dataTable.Columns.Add("4", typeof(String));
+            //dataTable.Columns.Add("5", typeof(String));
+            //dataTable.Columns.Add("6", typeof(String)); 
         }
 
         private void Form5_Load(object sender, EventArgs e)
         {
-            
-            Object[][] faculty = new Object[9][];// 9 faculty members are being considered
+            Object[,] listOfFaculty = new Object[,] { { "Umadevi V", 4 }, 
+                                                        {"Selva Kumar",3},
+                                                        {"Sayed Akram",5},
+                                                        {"Panimozhi",2},
+                                                        {"Nandini Vineeth",4},
+                                                        {"Namratha",5},
+                                                        {"Saritha AN",5},
+                                                        {"Asha",4},
+                                                        {"Madhvi",4}};
+            Object[][] faculty = new Object[listOfFaculty.Length/2][];// n faculty members are being considered
             for (int i=0;i<faculty.Length;i++)
             {
                 faculty[i] = new Object[2];
-                faculty[i][0] = "fac-"+(char)(i+65);
-                faculty[i][1] = 4;
+                faculty[i][0] = listOfFaculty[i,0];
+                faculty[i][1] = listOfFaculty[i,1];
             }
             foreach (Object[] x in faculty)
             {
@@ -44,9 +52,9 @@ namespace allocationsystem
             }
             Object[,] listOfDates = new Object[,] { { "12-02-17", "9:30 to 12:30", 6 }, 
                                                     {"13-02-17","9:30 to 12:30",6},
-                                                    {"14-02-17","9:30 to 12:30",6},
-                                                    {"15-02-17","9:30 to 12:30",6},
-                                                    {"16-02-17","9:30 to 12:30",6},
+                                                    {"14-02-17","9:30 to 12:30",5},
+                                                    {"15-02-17","9:30 to 12:30",3},
+                                                    {"16-02-17","9:30 to 12:30",7},
                                                     {"17-02-17","9:30 to 12:30",6}};
             int numberOfExamDays = 6;
             ExamDay[] dates;
@@ -64,6 +72,7 @@ namespace allocationsystem
                 AllotmentTable[i] = new int[dates[i].numberOfRooms];
             }
             FillAllotmentTable(faculty , dates, AllotmentTable);
+            int roomIndex = 1;
             for (int i = 0; i < numberOfExamDays; i++)
             {
                 ArrayList list = new ArrayList(); 
@@ -77,6 +86,10 @@ namespace allocationsystem
                     //Console.Write(faculty[x][0]+"\t");
                 }
                 Object [] rowParams = list.ToArray();
+                while (dataTable.Columns.Count < rowParams.Length)
+                {
+                    dataTable.Columns.Add("Room"+roomIndex++, typeof(String));
+                }
                 dataTable.Rows.Add(rowParams);
                 //Console.Write("");
             }
