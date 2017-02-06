@@ -20,3 +20,14 @@ C:\Users\Samarth\Documents\Visual Studio 2010\Projects\allocationsystem\allocati
 C:\Users\Samarth\Documents\Visual Studio 2010\Projects\allocationsystem\allocationsystem\obj\x86\Debug\allocationsystem.Form4.resources
 C:\Users\Samarth\Documents\Visual Studio 2010\Projects\allocationsystem\allocationsystem\obj\x86\Debug\allocationsystem.Properties.Resources.resources
 C:\Users\Samarth\Documents\Visual Studio 2010\Projects\allocationsystem\allocationsystem\obj\x86\Debug\allocationsystem.csproj.GenerateResource.Cache
+F:\Engineering\BMSCE\dbms\project\allocationsystem\obj\x86\Debug\allocationsystem.exe
+F:\Engineering\BMSCE\dbms\project\allocationsystem\obj\x86\Debug\allocationsystem.pdb
+F:\Engineering\BMSCE\dbms\project\allocationsystem\bin\Debug\allocationsystem.exe
+F:\Engineering\BMSCE\dbms\project\allocationsystem\bin\Debug\allocationsystem.pdb
+F:\Engineering\BMSCE\dbms\project\allocationsystem\obj\x86\Debug\allocationsystem.Form1.resources
+F:\Engineering\BMSCE\dbms\project\allocationsystem\obj\x86\Debug\allocationsystem.Form2.resources
+F:\Engineering\BMSCE\dbms\project\allocationsystem\obj\x86\Debug\allocationsystem.Form3.resources
+F:\Engineering\BMSCE\dbms\project\allocationsystem\obj\x86\Debug\allocationsystem.Form4.resources
+F:\Engineering\BMSCE\dbms\project\allocationsystem\obj\x86\Debug\allocationsystem.Form5.resources
+F:\Engineering\BMSCE\dbms\project\allocationsystem\obj\x86\Debug\allocationsystem.Properties.Resources.resources
+F:\Engineering\BMSCE\dbms\project\allocationsystem\obj\x86\Debug\allocationsystem.csproj.GenerateResource.Cache
