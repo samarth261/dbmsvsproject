@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Threading.Tasks;
+
 
 namespace allocationsystem
 {
@@ -55,10 +57,19 @@ namespace allocationsystem
             dateTimePicker2.Visible = false;
             button6.Visible = false;
         }
-
+        DataTable table = new DataTable();
         private void Form1_Load(object sender, EventArgs e)
         {
+            table.Columns.Add("Start Date", typeof(string));
+            table.Columns.Add("End Date", typeof(string));
+            table.Columns.Add("Academic Semester", typeof(string));
+            dataGridView2.DataSource = table;
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            table.Rows.Add(textBox1.Text, textBox2.Text, radioButton1.Text, radioButton2.Text);
+            dataGridView2.DataSource = table;
         }
 
        

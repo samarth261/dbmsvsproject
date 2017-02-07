@@ -57,5 +57,13 @@ namespace allocationsystem
         {
 
         }
+        /*DataTable ta = new DataTable();
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            table.Columns.Add("Start Date", typeof(string));
+            table.Columns.Add("End Date", typeof(string));
+            table.Columns.Add("Academic Semester", typeof(string));
+            dataGridView2.DataSource = table;
+        }*/
     }
 }
