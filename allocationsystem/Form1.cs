@@ -17,7 +17,7 @@ namespace allocationsystem
         {
             InitializeComponent();
         }
-
+        String Semester;
         private void button2_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
@@ -68,8 +68,18 @@ namespace allocationsystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            table.Rows.Add(textBox1.Text, textBox2.Text, radioButton1.Text, radioButton2.Text);
+            table.Rows.Add(textBox1.Text, textBox2.Text, Semester);
             dataGridView2.DataSource = table;
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            Semester = "Even";
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            Semester = "Odd";
         }
 
        

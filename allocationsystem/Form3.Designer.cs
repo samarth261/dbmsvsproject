@@ -52,7 +52,7 @@
             this.label1.Location = new System.Drawing.Point(333, 23);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(194, 25);
+            this.label1.Size = new System.Drawing.Size(377, 48);
             this.label1.TabIndex = 0;
             this.label1.Text = "Faculty Information";
             // 
@@ -62,7 +62,7 @@
             this.label2.Location = new System.Drawing.Point(95, 123);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 16);
+            this.label2.Size = new System.Drawing.Size(82, 30);
             this.label2.TabIndex = 1;
             this.label2.Text = "Name";
             // 
@@ -72,7 +72,7 @@
             this.NameBox.Location = new System.Drawing.Point(214, 114);
             this.NameBox.Margin = new System.Windows.Forms.Padding(4);
             this.NameBox.Name = "NameBox";
-            this.NameBox.Size = new System.Drawing.Size(160, 22);
+            this.NameBox.Size = new System.Drawing.Size(160, 37);
             this.NameBox.TabIndex = 2;
             // 
             // label3
@@ -81,7 +81,7 @@
             this.label3.Location = new System.Drawing.Point(95, 165);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 16);
+            this.label3.Size = new System.Drawing.Size(147, 30);
             this.label3.TabIndex = 3;
             this.label3.Text = "Department";
             // 
@@ -91,7 +91,7 @@
             this.ThresholdBox.Location = new System.Drawing.Point(214, 241);
             this.ThresholdBox.Margin = new System.Windows.Forms.Padding(4);
             this.ThresholdBox.Name = "ThresholdBox";
-            this.ThresholdBox.Size = new System.Drawing.Size(160, 22);
+            this.ThresholdBox.Size = new System.Drawing.Size(160, 37);
             this.ThresholdBox.TabIndex = 5;
             // 
             // label4
@@ -100,7 +100,7 @@
             this.label4.Location = new System.Drawing.Point(95, 245);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 16);
+            this.label4.Size = new System.Drawing.Size(127, 30);
             this.label4.TabIndex = 6;
             this.label4.Text = "Threshold";
             // 
@@ -142,7 +142,7 @@
             this.DeptCombo.Location = new System.Drawing.Point(214, 155);
             this.DeptCombo.Margin = new System.Windows.Forms.Padding(4);
             this.DeptCombo.Name = "DeptCombo";
-            this.DeptCombo.Size = new System.Drawing.Size(160, 24);
+            this.DeptCombo.Size = new System.Drawing.Size(160, 38);
             this.DeptCombo.TabIndex = 9;
             // 
             // dataGridView1
@@ -159,7 +159,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(95, 77);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(21, 16);
+            this.label5.Size = new System.Drawing.Size(38, 30);
             this.label5.TabIndex = 11;
             this.label5.Text = "ID";
             // 
@@ -167,7 +167,7 @@
             // 
             this.IDBox.Location = new System.Drawing.Point(214, 74);
             this.IDBox.Name = "IDBox";
-            this.IDBox.Size = new System.Drawing.Size(160, 22);
+            this.IDBox.Size = new System.Drawing.Size(160, 37);
             this.IDBox.TabIndex = 12;
             // 
             // label6
@@ -175,7 +175,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(98, 203);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 16);
+            this.label6.Size = new System.Drawing.Size(148, 30);
             this.label6.TabIndex = 13;
             this.label6.Text = "Designation";
             // 
@@ -183,15 +183,15 @@
             // 
             this.Designation.Location = new System.Drawing.Point(214, 200);
             this.Designation.Name = "Designation";
-            this.Designation.Size = new System.Drawing.Size(160, 22);
+            this.Designation.Size = new System.Drawing.Size(160, 37);
             this.Designation.TabIndex = 14;
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ClientSize = new System.Drawing.Size(916, 476);
+            this.ClientSize = new System.Drawing.Size(1506, 922);
             this.Controls.Add(this.Designation);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.IDBox);

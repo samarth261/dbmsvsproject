@@ -64,7 +64,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(137, 223);
+            this.label2.Location = new System.Drawing.Point(29, 129);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(128, 30);
@@ -75,7 +75,7 @@
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.Window;
             this.textBox1.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.textBox1.Location = new System.Drawing.Point(284, 216);
+            this.textBox1.Location = new System.Drawing.Point(210, 129);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 37);
@@ -84,7 +84,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(137, 336);
+            this.label3.Location = new System.Drawing.Point(29, 219);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(114, 30);
@@ -94,7 +94,7 @@
             // textBox2
             // 
             this.textBox2.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.textBox2.Location = new System.Drawing.Point(284, 329);
+            this.textBox2.Location = new System.Drawing.Point(210, 219);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(132, 37);
@@ -103,7 +103,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(137, 517);
+            this.label4.Location = new System.Drawing.Point(38, 297);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(243, 30);
@@ -112,7 +112,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(426, 597);
+            this.button1.Location = new System.Drawing.Point(43, 750);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 45);
@@ -123,7 +123,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(707, 597);
+            this.button2.Location = new System.Drawing.Point(473, 750);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 45);
@@ -135,7 +135,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(426, 513);
+            this.radioButton1.Location = new System.Drawing.Point(43, 355);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(219, 34);
@@ -143,11 +143,12 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Even Semester";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(707, 517);
+            this.radioButton2.Location = new System.Drawing.Point(43, 421);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(209, 34);
@@ -155,10 +156,11 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Odd Semester";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(848, 209);
+            this.button3.Location = new System.Drawing.Point(496, 129);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(149, 44);
@@ -169,7 +171,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(848, 318);
+            this.button4.Location = new System.Drawing.Point(496, 219);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(149, 48);
@@ -180,7 +182,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(516, 216);
+            this.dateTimePicker1.Location = new System.Drawing.Point(210, 129);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 37);
@@ -190,7 +192,7 @@
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(516, 329);
+            this.dateTimePicker2.Location = new System.Drawing.Point(210, 219);
             this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(265, 37);
@@ -200,7 +202,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(1034, 209);
+            this.button5.Location = new System.Drawing.Point(679, 129);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(124, 44);
@@ -212,7 +214,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(1034, 318);
+            this.button6.Location = new System.Drawing.Point(679, 230);
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(124, 37);
@@ -225,10 +227,10 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(1239, 129);
+            this.dataGridView2.Location = new System.Drawing.Point(376, 297);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 33;
-            this.dataGridView2.Size = new System.Drawing.Size(737, 666);
+            this.dataGridView2.Size = new System.Drawing.Size(427, 387);
             this.dataGridView2.TabIndex = 17;
             // 
             // Form1

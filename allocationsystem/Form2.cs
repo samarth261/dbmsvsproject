@@ -57,13 +57,24 @@ namespace allocationsystem
         {
 
         }
-        /*DataTable ta = new DataTable();
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+        DataTable table = new DataTable();
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            table.Columns.Add("Start Date", typeof(string));
-            table.Columns.Add("End Date", typeof(string));
-            table.Columns.Add("Academic Semester", typeof(string));
-            dataGridView2.DataSource = table;
-        }*/
+            table.Columns.Add("Dates", typeof(string));
+            table.Columns.Add("No of room", typeof(int));
+            table.Columns.Add("Slot", typeof(string));
+            dataGridView1.DataSource = table;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //table.Rows.Add(textBox1.Text, textBox2.Text, textBox3.Text);
+            //dataGridView1.DataSource = table;
+        }
     }
 }
